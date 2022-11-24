@@ -1,0 +1,23 @@
+{
+  "name": "claudark",
+  "displayName": "ClauDark",
+  "description": "Dark theme preferred by claunia",
+  "author": {"name": "Natalia Portillo", "url": "https://github.com/claunia"},
+  "homepage": "https://github.com/claunia/ClauDark",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ClauDark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ClauDark-color-theme.json"
+      }
+    ]
+  }
+}
